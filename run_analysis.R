@@ -88,4 +88,7 @@ write.table(FinalData, "FinalData.txt", row.name=FALSE)
 
 str(FinalData)
 head(FinalData)
+
+#Generates the tidy data set as FinalData.txt file.
+
 FinalData
