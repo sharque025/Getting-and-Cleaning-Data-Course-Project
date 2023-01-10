@@ -36,13 +36,13 @@ y_train \<- test/y_train.txtcontains train data of activities'code labels
 
 rbind() function is used to
 
-merge x_train and x_test as X
+-   merge x_train and x_test as X
 
-merge y_train and y_test as Y
+-   merge y_train and y_test as Y
 
-merge subject_train and subject_test as Subject
+-   merge subject_train and subject_test as Subject
 
-Merged_Data merges Subject, X, and Y
+Merged_Data merges Subject, X, and Y using cbind() function
 
 # Others
 
